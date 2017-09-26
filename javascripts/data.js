@@ -70,11 +70,13 @@ Plotly.d3.csv('https://raw.githubusercontent.com/plotly/datasets/master/_3d-line
     var data = [trace1, trace2, trace3];
     var layout = {
         showlegend: false,
+        width: 1280,
+        height: 600,
         margin: {
         l: 0,
         r: 0,
         b: -100,
-        t: 100
+        t: 0
     }
     };
     Plotly.newPlot('svg1', data,
@@ -99,8 +101,10 @@ var d3 = Plotly.d3,
 var layout = {
 
     showlegend: false,
+    width: 1280,
+    height: 600,
     margin: {
-        l: 0,
+        l: -100,
         r: 0,
         b: -100,
         t: 100
@@ -9554,7 +9558,9 @@ var trace7 = {
 var data = [trace1, trace2, trace3, trace4, trace5, trace6, trace7];
 
 var layout = {
-
+    
+        width: 1280,
+        height: 600,
     showlegend: false,
     margin: {
         l: 0,
